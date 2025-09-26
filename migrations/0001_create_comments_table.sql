@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS comments (
 -- Insert some sample data into our comments table.
 INSERT INTO comments (author, content)
 VALUES
+    ('Daan', 'Hi!'),
     ('Kristian', 'Congrats!'),
     ('Serena', 'Great job!'),
     ('Max', 'Keep up the good work!')
